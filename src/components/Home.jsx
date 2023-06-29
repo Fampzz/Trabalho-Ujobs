@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Style.css'
+import { Route } from 'react-router-dom'
 export default class teste extends Component {
     render() {
         return (
@@ -9,7 +10,7 @@ export default class teste extends Component {
                         <a> <img class="logo-img" src={require("../assets/logos/Logo.png")} alt=''/> </a>
                         <div class="menu-superior">
                             <nav>
-                                <button class="menu-text selecionada" >Freelancers</button>
+                                <button class="menu-text selecionada" onClick={Route('/Freelancers')}>Freelancers</button>
                                 <button class="menu-text">Quem somos?</button>
                             </nav>
                         </div>
