@@ -1,0 +1,15 @@
+Withe Theme:
+Azul logo: #007acc
+Vermelho logo: #cc0033
+Cinza: #333333  
+Cinza escuro: #252525
+branco: #d4d4d4
+Preto: #1e1e1e
+
+Dark Theme:
+Azul logo: #007acc
+Vermelho logo: #cc0033
+Cinza: #3e3e42  
+Cinza escuro: #2d2d30
+Preto claro: #252526
+Preto: #1e1e1e
