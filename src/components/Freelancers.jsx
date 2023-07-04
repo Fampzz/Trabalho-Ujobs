@@ -25,7 +25,7 @@ function Freelancers() {
                     <a href='/home'> <img className="logo-img" src={require("../assets/logos/Logo.png")} alt='' /> </a>
                     <div className="menu-superior">
                         <nav>
-                            <a className="menu-text" href="/freelancers">Freelancers</a>
+                            <a className="menu-text selecionada" href="/freelancers">Freelancers</a>
                             <a className="menu-text" href="/quem-somos">Quem somos?</a>
                         </nav>
                     </div>

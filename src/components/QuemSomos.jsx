@@ -9,7 +9,7 @@ function QuemSomos(){
                     <div class="menu-superior">
                         <nav>
                             <a class="menu-text" href="/freelancers">Freelancers</a>
-                            <a class="menu-text" href="/quem-somos">Quem somos?</a>
+                            <a class="menu-text selecionada" href="/quem-somos">Quem somos?</a>
                         </nav>
                     </div>
                 </div>
