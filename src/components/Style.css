@@ -351,4 +351,42 @@
   .dados-card {
     margin-left: 1rem;
   }
-  
+  .popup {
+    display: flex;
+    position: fixed;
+    border-radius: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid #007acc;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* cor semi-transparente */
+    z-index: 999; /* valor alto para colocar acima dos outros elementos */
+  }
+  .popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+  .close-button {
+    position: absolute;
+    background-color: transparent;
+    width: 2rem;
+    border-radius: 3rem;
+    border: 1px solid #007acc;
+    color: black;
+    cursor: pointer;
+  }
