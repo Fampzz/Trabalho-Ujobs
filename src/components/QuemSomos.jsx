@@ -5,7 +5,7 @@ function QuemSomos(){
         <div>
             <nav class="cabecalho">
                 <div class="cabecalho-esq">
-                    <a href="/"> <img class="logo-img" src={require("../assets/logos/Logo.png")} alt='' /></a>
+                    <a href="/home"> <img class="logo-img" src={require("../assets/logos/Logo.png")} alt='' /></a>
                     <div class="menu-superior">
                         <nav>
                             <a class="menu-text" href="/freelancers">Freelancers</a>

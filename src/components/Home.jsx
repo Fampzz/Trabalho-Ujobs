@@ -5,7 +5,7 @@ function Home() {
         <div>
             <nav className="cabecalho">
                 <div>
-                    <a href='/'> <img class="logo-img" src={require("../assets/logos/Logo.png")} alt='' /> </a>
+                    <a href='/home'> <img class="logo-img" src={require("../assets/logos/Logo.png")} alt='' /> </a>
                     <div className="menu-superior">
                         <nav>
                             <a class="menu-text" href="/freelancers">Freelancers</a>

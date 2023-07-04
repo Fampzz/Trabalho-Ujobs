@@ -14,7 +14,7 @@ function Freelancers() {
         <div>
             <nav className="cabecalho">
                 <div>
-                    <a href='/'> <img className="logo-img" src={require("../assets/logos/Logo.png")} alt='' /> </a>
+                    <a href='/home'> <img className="logo-img" src={require("../assets/logos/Logo.png")} alt='' /> </a>
                     <div className="menu-superior">
                         <nav>
                             <a className="menu-text" href="/freelancers">Freelancers</a>
